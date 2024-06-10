@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('Image/fond.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Pour aligner verticalement le contenu au centre */
+    height: 10vh; 
+}
+
+footer a {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 100%;
+}
+
+
+.content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+#quests, #stats-list {
+    list-style: none;
+    padding: 0;
+}
+
+#quests li, #stats-list li {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.complete-button {
+    background-color: #3498db;
+}
+
+.undo-button {
+    background-color: #e74c3c;
+}
+
+.countdown {
+    text-align: right;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+}
+
+#finish-day-button {
+    background-color: #00e1ff; 
+    padding: 7px;
+    color: rgb(0, 0, 0); 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; 
+    border: none; 
+    display: block;
+    margin: 0 auto;
+    /* Effet néon */
+    text-shadow: 0 0 5px #00e1ff, 0 0 10px #00e1ff, 0 0 15px #00e1ff, 0 0 20px #00e1ff;
+    box-shadow: 0 0 5px #00e1ff, 0 0 10px #00e1ff, 0 0 15px #00e1ff, 0 0 20px #00e1ff;
+}

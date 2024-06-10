@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('Image/fond2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15cm;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-top: solid white 2px;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+  /* Style pour le footer */
+  footer {
+    justify-content: center;
+    align-items: center; /* Pour aligner verticalement le contenu au centre */
+    margin-top: 0.6cm;
+    text-align: center; /* Pour centrer horizontalement le contenu */
+}
+
+  
+  footer a {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 10px;
+    border-radius: 100%;
+}
+
+img {
+    width: 7cm;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+}

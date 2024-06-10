@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peak Leveling</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="startup-sound" src="song/My Audio.mp3"></audio>
+    <header>
+        <h1>Peak Leveling</h1>
+    </header>
+
+    <section id="home" class="content">
+        <h2>Quêtes Hebdomadaires</h2>
+        <ul id="quests">
+            <!-- Les quêtes seront ajoutées ici dynamiquement -->
+        </ul>
+    </section>
+
+    <section id="levels" class="content">
+        <h2>Niveaux</h2>
+        <p id="level-info">Niveau actuel : 1</p>
+        <p id="exp-info">Quêtes Accompli : 0/100</p>
+    </section>
+
+    <section id="stats" class="content">
+        <h2>Statistiques</h2>
+        <ul id="stats-list">
+            <!-- Les statistiques seront ajoutées ici dynamiquement -->
+        </ul>
+    </section>
+    
+    <button id="finish-day-button">Terminer la journée</button>
+
+    <audio id="clickSound">
+        <source src="song/My Audio.mp3" type="audio/mpeg">
+        Votre navigateur ne supporte pas l'élément audio.
+      </audio>
+      
+
+    <section class="content">
+        <div class="class">
+            <h4>Rang E (0-15)</h4>
+            <p>Le rang le plus bas, représentant les chasseurs les plus faibles.</p>
+        </div>
+        <div class="class">
+            <h4>Rang D (15-25)</h4>
+            <p>Légèrement plus fort que le rang E, mais toujours relativement faible par rapport aux autres rangs.</p>
+        </div>
+        <div class="class">
+            <h4>Rang C (25-35)</h4>
+            <p>Chasseurs de compétence moyenne. Ils peuvent gérer des donjons de bas niveau.</p>
+        </div>
+        <div class="class">
+            <h4>Rang B (35-40)</h4>
+            <p>Chasseurs compétents avec des capacités significatives. Ils peuvent gérer des donjons de niveau moyen.</p>
+        </div>
+        <div class="clas">
+            <h4>Rang A (40-55)</h4>
+            <p>Chasseurs très puissants capables de gérer des donjons de haut niveau.</p>
+        </div>
+        <div class="class">
+            <h4>Rang S (55-70)</h4>
+            <p>Les chasseurs les plus puissants, capables de gérer des donjons de très haut niveau et de faire face à des menaces extrêmes.</p>
+        </div>
+
+        <h3>Rangs Supérieurs</h3>
+
+        <div class="class">
+            <h4>Rang S + (70-90)</h4>
+            <p>Une distinction non officielle pour les chasseurs de rang S particulièrement puissants, souvent reconnus pour leur potentiel extraordinaire et leurs exploits remarquables.</p>
+        </div>
+        <div class="class">
+            <h4>Rang Elite (90-150)</h4>
+            <p>Un niveau encore plus élevé que le rang S, réservé aux chasseurs qui ont un impact mondial et une puissance qui les distingue nettement des autres chasseurs de rang S.</p>
+        </div>
+    </section>
+
+    <section class="content">
+        <h2>Définitions</h2>
+        <div class="def">
+            <h3>Pompes</h3>
+            <p>Position de départ : Allongez-vous sur le ventre, mains légèrement plus larges que les épaules.
+                Descendez en fléchissant les coudes jusqu'à ce que votre poitrine soit près du sol.
+                Poussez à travers vos paumes pour revenir à la position de départ.</p>
+        </div>
+
+        <div class="def">
+            <h3>Fentes</h3>
+            <p>Debout, faites un grand pas en avant.
+                Abaissez votre corps jusqu'à ce que les genoux forment un angle de 90 degrés.
+                Poussez à travers le talon pour revenir en position debout.
+                Alternez avec l'autre jambe.</p>
+        </div>
+
+        <div class="def">
+            <h3>Jumping Jacks</h3>
+            <p>Position de départ : Debout, les pieds joints et les bras le long du corps.
+                Sauter : Sautez en écartant les jambes sur le côté tout en levant les bras au-dessus de la tête.
+                Revenir à la position initiale : Revenez à la position de départ en sautant à nouveau et en ramenant les bras le long du corps.
+                Répétez : Enchaînez les sauts de manière rythmée.</p>
+        </div>
+
+        <div class="def">
+            <h3>Squats</h3>
+            <p>Position de départ : Debout, les pieds écartés à la largeur des épaules ou un peu plus.
+                Descendez : Fléchissez les genoux et les hanches pour abaisser votre corps comme si vous vous asseyiez sur une chaise, en gardant le dos droit.
+                Relevez-vous : Poussez à travers les talons pour remonter à la position de départ, en contractant les muscles des jambes et des fessiers.
+                Répétez : Effectuez le mouvement de manière fluide et contrôlée, en respirant régulièrement.</p>
+        </div>
+
+        <div class="def">
+            <h3>Burpees</h3>
+            <p>Position de départ : Debout, les pieds écartés à la largeur des épaules.
+                Flexion et saut : Fléchissez les genoux et placez vos mains sur le sol devant vous, puis sautez en arrière pour adopter une position de planche.
+                Pompe : Effectuez une pompe en abaissant votre poitrine jusqu'au sol, puis remontez en poussant à travers vos bras.
+                Sauter en position accroupie : Ramenez vos pieds vers vos mains en sautant, puis sautez aussi haut que possible avec les bras levés au-dessus de la tête.
+                Répétez : Enchaînez les mouvements de manière fluide et continue.</p>
+        </div>
+
+        <div class="def">
+            <h3>Stretching</h3>
+            <p>Choisissez un étirement : Ciblez les muscles que vous souhaitez étirer, comme les ischio-jambiers, les quadriceps, les mollets, etc.
+                Position de départ : Adoptez une position confortable et stable, en gardant le dos droit et en évitant les mouvements brusques.
+                Étirez lentement : Avec une respiration lente et régulière, étirez le muscle jusqu'à ressentir une légère tension, mais pas de douleur.
+                Maintien de l'étirement : Maintenez la position d'étirement pendant environ 15 à 30 secondes, en continuant à respirer profondément.
+                Relâchement : Relâchez progressivement la tension et revenez à la position de départ.
+                Répétez : Effectuez chaque étirement deux ou trois fois de chaque côté pour améliorer la souplesse.</p>
+        </div>
+
+        <div class="def">
+            <h3>Jumping Lunges</h3>
+            <p>Position de départ : Tenez-vous debout, les pieds écartés à la largeur des épaules.
+                Effectuez une fente : Faites un grand pas en avant avec une jambe et pliez les deux genoux pour former deux angles de 90 degrés.
+                Sauter : Poussez à travers les talons pour sauter en l'air en changeant la position de vos jambes, avec la jambe avant devenue arrière et vice versa.
+                Atterrissez en fente : Amortissez votre descente en repliant vos genoux pour retomber dans une fente, avec l'autre jambe maintenant en avant.
+                Répétez : Alternez les sauts de fente en gardant le mouvement fluide et contrôlé.</p>
+        </div>
+
+        <div class="def">
+            <h3>Pompes Inversées</h3>
+            <p>Position de départ : Allongez-vous sur le ventre avec vos mains placées sous vos épaules, mais avec vos paumes face à vos pieds, plutôt que de les placer vers l'extérieur comme dans une pompe classique. Les bras doivent être tendus et les jambes étendues derrière vous avec les orteils en appui sur le sol.
+                Pousser vers le haut : En utilisant principalement la force de vos épaules et de vos triceps, poussez-vous vers le haut jusqu'à ce que vos bras soient tendus, en gardant votre corps en ligne droite.
+                Descendre : Abaissez lentement votre corps vers le sol en pliant les coudes, en gardant les coudes près du corps.</p>
+        </div>
+    </section>
+
+<footer>
+    <a href="dungeons.html"></a>
+</footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
